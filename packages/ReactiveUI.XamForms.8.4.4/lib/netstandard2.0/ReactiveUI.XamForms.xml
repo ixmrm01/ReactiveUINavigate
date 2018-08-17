@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReactiveUI.XamForms</name>
+    </assembly>
+    <members>
+        <member name="P:ReactiveUI.XamForms.ReactiveCarouselPage`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveContentPage`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveContentView`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveMasterDetailPage`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveMultiPage`2.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveNavigationPage`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ReactiveTabbedPage`1.ViewModel">
+            <summary>
+            The ViewModel to display
+            </summary>
+        </member>
+        <member name="T:ReactiveUI.XamForms.ViewModelViewHost">
+            <summary>
+            This content view will automatically load and host the view for the given view model. The view model whose view is
+            to be displayed should be assigned to the <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewModel"/> property. Optionally, the chosen view can be
+            customized by specifying a contract via <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewContractObservable"/> or <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewContract"/>.
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ViewModelViewHost.ViewModel">
+            <summary>
+            The view model whose associated view is to be displayed.
+            </summary>
+        </member>
+        <member name="F:ReactiveUI.XamForms.ViewModelViewHost.ViewModelProperty">
+            <summary>
+            Identifies the <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewModel"/> property.
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ViewModelViewHost.DefaultContent">
+            <summary>
+            The content to display when <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewModel"/> is <see langword="null"/>.
+            </summary>
+        </member>
+        <member name="F:ReactiveUI.XamForms.ViewModelViewHost.DefaultContentProperty">
+            <summary>
+            Identifies the <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.DefaultContent"/> property.
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ViewModelViewHost.ViewContractObservable">
+            <summary>
+            The contract to use when resolving the view for the given view model.
+            </summary>
+        </member>
+        <member name="F:ReactiveUI.XamForms.ViewModelViewHost.ViewContractObservableProperty">
+            <summary>
+            Identifies the <see cref="P:ReactiveUI.XamForms.ViewModelViewHost.ViewContractObservable"/> property.
+            </summary>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ViewModelViewHost.ViewContract">
+            <summary>
+            A fixed contract to use when resolving the view for the given view model.
+            </summary>
+            <remarks>
+            This property is a mere convenience so that a fixed contract can be assigned directly in XAML.
+            </remarks>
+        </member>
+        <member name="P:ReactiveUI.XamForms.ViewModelViewHost.ViewLocator">
+            <summary>
+            Can be used to override the view locator to use when resolving the view. If unspecified, <see cref="P:ReactiveUI.ViewLocator.Current"/> will be used.
+            </summary>
+        </member>
+    </members>
+</doc>

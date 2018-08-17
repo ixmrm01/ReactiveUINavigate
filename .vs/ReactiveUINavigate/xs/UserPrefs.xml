@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5CE1F170-0608-4458-B43B-214EC37A2A55}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReactiveUINavigate.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactiveUINavigate/ContentPageBase.fs">
+    <Files>
+      <File FileName="ReactiveUINavigate/App.xaml" Line="7" Column="1" />
+      <File FileName="ReactiveUINavigate/App.xaml.fs" Line="1" Column="29" />
+      <File FileName="ReactiveUINavigate/AppBootstrapper.fs" Line="35" Column="17" />
+      <File FileName="ReactiveUINavigate/ContentPageBase.fs" Line="44" Column="49" />
+      <File FileName="ReactiveUINavigate/ViewModelBase.fs" Line="20" Column="13" />
+      <File FileName="ReactiveUINavigate/MainPage.xaml" Line="8" Column="1" />
+      <File FileName="ReactiveUINavigate/MainPage.xaml.fs" Line="20" Column="9" />
+      <File FileName="ReactiveUINavigate/MainViewModel.fs" Line="14" Column="1" />
+      <File FileName="ReactiveUINavigate/SecondPage.xaml" Line="5" Column="1" />
+      <File FileName="ReactiveUINavigate/SecondPage.xaml.fs" Line="3" Column="1" />
+      <File FileName="ReactiveUINavigate/SecondViewModel.fs" Line="5" Column="5" />
+      <File FileName="ReactiveUINavigate/Utilities.fs" Line="17" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ReactiveUINavigate.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A4A70555-94E9-45E6-9EAB-7AF0FB8040B5">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.ReactiveUINavigate.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
